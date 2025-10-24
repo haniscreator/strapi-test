@@ -1,5 +1,5 @@
-// config/plugins.js
 module.exports = ({ env }) => ({
+    // ...
     upload: {
       config: {
         provider: 'cloudinary',
@@ -10,9 +10,10 @@ module.exports = ({ env }) => ({
         },
         actionOptions: {
           upload: {},
+          uploadStream: {},
           delete: {},
         },
       },
     },
+    // ...
   });
-  
